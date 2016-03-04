@@ -1,0 +1,6 @@
+C:\Users\Don Starkey\Documents\Visual Studio 2015\Projects\ExternalEntityFramework\UnitTestDTDal\bin\Debug\UnitTestDTDal.dll
+C:\Users\Don Starkey\Documents\Visual Studio 2015\Projects\ExternalEntityFramework\UnitTestDTDal\bin\Debug\UnitTestDTDal.pdb
+C:\Users\Don Starkey\Documents\Visual Studio 2015\Projects\ExternalEntityFramework\UnitTestDTDal\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Don Starkey\Documents\Visual Studio 2015\Projects\ExternalEntityFramework\UnitTestDTDal\obj\Debug\UnitTestDTDal.csprojResolveAssemblyReference.cache
+C:\Users\Don Starkey\Documents\Visual Studio 2015\Projects\ExternalEntityFramework\UnitTestDTDal\obj\Debug\UnitTestDTDal.dll
+C:\Users\Don Starkey\Documents\Visual Studio 2015\Projects\ExternalEntityFramework\UnitTestDTDal\obj\Debug\UnitTestDTDal.pdb
