@@ -17,6 +17,10 @@ namespace DocuTrackerEF7.DAL
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<InternalAnswer>().HasKey(x => new { x.InternalAnswerID});
+            modelBuilder.Entity<AnswerType>().HasKey(x => new { x.ID});
+            modelBuilder.Entity<Answer>().HasKey(x => new { x.ID });
+            modelBuilder.Entity<Question>().HasKey(x => new { x.ID });
             modelBuilder.Entity<QuestionAnswer>().HasKey(x => new { x.QuestionID, x.AnswerID });
         }
 

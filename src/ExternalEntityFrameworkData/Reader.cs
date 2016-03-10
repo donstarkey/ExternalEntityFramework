@@ -25,6 +25,7 @@ namespace DocuTrackerEF7.DAL
             var questions = _context.Questions.ToList();
 
             var newlist = item.QuestionAnswer.Select(y => y.Question);
+            //var qanda = _context.Questions.SelectMany(a => a.QuestionAnswer).ToList();
             //var ansList = item.QuestionAnswers.Select(c => c.Question);
 
             return list;
