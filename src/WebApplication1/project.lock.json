@@ -3,12 +3,28 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
+      "DocuTrackerEF7.DAL/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "DTModels": "1.0.0",
+          "EntityFramework.Commands": "7.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "DTDataService/1.0.0": {
         "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
-        "dependencies": {
-          "ExternalEntityFrameworkData": "1.0.0"
-        }
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "DTModels/1.0.0": {
         "type": "project",
@@ -158,25 +174,6 @@
         },
         "runtime": {
           "lib/dnx451/EntityFramework.Relational.Design.dll": {}
-        }
-      },
-      "ExternalEntityFrameworkData/1.0.0": {
-        "type": "project",
-        "framework": "DNX,Version=v4.5.1",
-        "dependencies": {
-          "DTModels": "1.0.0",
-          "EntityFramework.Commands": "7.0.0-rc1-final",
-          "EntityFramework.Core": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
-          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Runtime": "4.0.21-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
         }
       },
       "Ix-Async/1.2.5": {
@@ -1985,12 +1982,23 @@
       }
     },
     ".NETFramework,Version=v4.5.1": {
-      "DTDataService/1.0.0": {
+      "DocuTrackerEF7.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.5.1",
         "dependencies": {
-          "ExternalEntityFrameworkData": "1.0.0"
+          "DTModels": "1.0.0",
+          "EntityFramework.Commands": "7.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
         }
+      },
+      "DTDataService/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "DTModels/1.0.0": {
         "type": "project",
@@ -2121,20 +2129,6 @@
         },
         "runtime": {
           "lib/net451/EntityFramework.Relational.Design.dll": {}
-        }
-      },
-      "ExternalEntityFrameworkData/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
-        "dependencies": {
-          "DTModels": "1.0.0",
-          "EntityFramework.Commands": "7.0.0-rc1-final",
-          "EntityFramework.Core": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
-          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
         }
       },
       "Ix-Async/1.2.5": {
@@ -3909,12 +3903,28 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
+      "DocuTrackerEF7.DAL/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "DTModels": "1.0.0",
+          "EntityFramework.Commands": "7.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "DTDataService/1.0.0": {
         "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
-        "dependencies": {
-          "ExternalEntityFrameworkData": "1.0.0"
-        }
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "DTModels/1.0.0": {
         "type": "project",
@@ -4064,25 +4074,6 @@
         },
         "runtime": {
           "lib/dnx451/EntityFramework.Relational.Design.dll": {}
-        }
-      },
-      "ExternalEntityFrameworkData/1.0.0": {
-        "type": "project",
-        "framework": "DNX,Version=v4.5.1",
-        "dependencies": {
-          "DTModels": "1.0.0",
-          "EntityFramework.Commands": "7.0.0-rc1-final",
-          "EntityFramework.Core": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
-          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Runtime": "4.0.21-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
         }
       },
       "Ix-Async/1.2.5": {
@@ -5900,12 +5891,28 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
+      "DocuTrackerEF7.DAL/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "DTModels": "1.0.0",
+          "EntityFramework.Commands": "7.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "DTDataService/1.0.0": {
         "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
-        "dependencies": {
-          "ExternalEntityFrameworkData": "1.0.0"
-        }
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "DTModels/1.0.0": {
         "type": "project",
@@ -6055,25 +6062,6 @@
         },
         "runtime": {
           "lib/dnx451/EntityFramework.Relational.Design.dll": {}
-        }
-      },
-      "ExternalEntityFrameworkData/1.0.0": {
-        "type": "project",
-        "framework": "DNX,Version=v4.5.1",
-        "dependencies": {
-          "DTModels": "1.0.0",
-          "EntityFramework.Commands": "7.0.0-rc1-final",
-          "EntityFramework.Core": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
-          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Runtime": "4.0.21-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
         }
       },
       "Ix-Async/1.2.5": {
@@ -7891,12 +7879,23 @@
       }
     },
     ".NETFramework,Version=v4.5.1/win7-x86": {
-      "DTDataService/1.0.0": {
+      "DocuTrackerEF7.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.5.1",
         "dependencies": {
-          "ExternalEntityFrameworkData": "1.0.0"
+          "DTModels": "1.0.0",
+          "EntityFramework.Commands": "7.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
         }
+      },
+      "DTDataService/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "DTModels/1.0.0": {
         "type": "project",
@@ -8027,20 +8026,6 @@
         },
         "runtime": {
           "lib/net451/EntityFramework.Relational.Design.dll": {}
-        }
-      },
-      "ExternalEntityFrameworkData/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
-        "dependencies": {
-          "DTModels": "1.0.0",
-          "EntityFramework.Commands": "7.0.0-rc1-final",
-          "EntityFramework.Core": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
-          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
         }
       },
       "Ix-Async/1.2.5": {
@@ -9818,12 +9803,23 @@
       }
     },
     ".NETFramework,Version=v4.5.1/win7-x64": {
-      "DTDataService/1.0.0": {
+      "DocuTrackerEF7.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.5.1",
         "dependencies": {
-          "ExternalEntityFrameworkData": "1.0.0"
+          "DTModels": "1.0.0",
+          "EntityFramework.Commands": "7.0.0-rc1-final",
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
+          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
         }
+      },
+      "DTDataService/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "DTModels/1.0.0": {
         "type": "project",
@@ -9954,20 +9950,6 @@
         },
         "runtime": {
           "lib/net451/EntityFramework.Relational.Design.dll": {}
-        }
-      },
-      "ExternalEntityFrameworkData/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
-        "dependencies": {
-          "DTModels": "1.0.0",
-          "EntityFramework.Commands": "7.0.0-rc1-final",
-          "EntityFramework.Core": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer.Design": "7.0.0-rc1-final",
-          "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
         }
       },
       "Ix-Async/1.2.5": {
@@ -11746,6 +11728,10 @@
     }
   },
   "libraries": {
+    "DocuTrackerEF7.DAL/1.0.0": {
+      "type": "project",
+      "path": "../DocuTrackerEF7.DAL/project.json"
+    },
     "DTDataService/1.0.0": {
       "type": "project",
       "path": "../DTDataService/project.json"
@@ -11753,10 +11739,6 @@
     "DTModels/1.0.0": {
       "type": "project",
       "path": "../../../DocuTracker.Models/src/DTModels/project.json"
-    },
-    "ExternalEntityFrameworkData/1.0.0": {
-      "type": "project",
-      "path": "../ExternalEntityFrameworkData/project.json"
     },
     "EntityFramework.Commands/7.0.0-rc1-final": {
       "type": "package",
@@ -14244,6 +14226,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "DocuTrackerEF7.DAL >= 1.0.0-*",
       "DTDataService >= 1.0.0-*",
       "DTModels >= 1.0.0-*",
       "EntityFramework.MicrosoftSqlServer >= 7.0.0-rc1-final",
@@ -14261,11 +14244,8 @@
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc1-final"
     ],
     "DNX,Version=v4.5.1": [
-      "ExternalEntityFrameworkData >= 1.0.0-*",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-rc1-final"
     ],
-    ".NETFramework,Version=v4.5.1": [
-      "ExternalEntityFrameworkData >= 1.0.0-*"
-    ]
+    ".NETFramework,Version=v4.5.1": []
   }
 }

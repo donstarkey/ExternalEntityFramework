@@ -5,6 +5,7 @@
   },
 
   "dependencies": {
+    "DocuTrackerEF7.DAL": "1.0.0-*",
     "DTDataService": "1.0.0-*",
     "DTModels": "1.0.0-*",
     "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
@@ -29,13 +30,11 @@
   "frameworks": {
     "dnx451": {
       "dependencies": {
-        "ExternalEntityFrameworkData": "1.0.0-*",
         "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final"
       }
     },
     "net451": {
       "dependencies": {
-        "ExternalEntityFrameworkData": "1.0.0-*"
       }
     }
   },

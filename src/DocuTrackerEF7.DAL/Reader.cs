@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DTModels.Interfaces;
-using Models.DTModels;
+using DTModels.Models;
 
 namespace DocuTrackerEF7.DAL
 {

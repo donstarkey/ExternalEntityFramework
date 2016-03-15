@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Data.Entity;
 using Microsoft.Data.Entity.Infrastructure;
-using Models.DTModels;
+using DTModels.Models;
 
 namespace DocuTrackerEF7.DAL
 {
