@@ -5061,7 +5061,7 @@
   "libraries": {
     "DTModels/1.0.0": {
       "type": "project",
-      "path": "../../../DTModels/src/DTModels/project.json"
+      "path": "../../../DocuTracker.Models/src/DTModels/project.json"
     },
     "EntityFramework.Commands/7.0.0-rc1-final": {
       "type": "package",

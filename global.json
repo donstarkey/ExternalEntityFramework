@@ -1,5 +1,5 @@
 {
-  "projects": [ "src", "test", "../DTModels/src" ],
+  "projects": [ "src", "test", "../DTModels/src", "../DocuTracker.Models/src" ],
   "sdk": {
     "version": "1.0.0-rc1-update1"
   }

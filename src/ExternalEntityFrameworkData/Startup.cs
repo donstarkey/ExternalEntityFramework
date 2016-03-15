@@ -8,7 +8,6 @@ using Microsoft.AspNet.Hosting;
 using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Data.Entity;
-//using EntityFramework.Core;
 
 namespace DocuTrackerEF7.DAL
 {

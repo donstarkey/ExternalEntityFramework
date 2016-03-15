@@ -9,7 +9,6 @@
   "frameworks": {
     "net451": {
       "dependencies": {
-        "ExternalEntityFrameworkData": "1.0.0-*"
       }
     },
     "dotnet5.4": {

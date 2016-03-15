@@ -11752,7 +11752,7 @@
     },
     "DTModels/1.0.0": {
       "type": "project",
-      "path": "../../../DTModels/src/DTModels/project.json"
+      "path": "../../../DocuTracker.Models/src/DTModels/project.json"
     },
     "ExternalEntityFrameworkData/1.0.0": {
       "type": "project",
